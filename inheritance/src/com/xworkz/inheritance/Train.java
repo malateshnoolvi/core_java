@@ -21,7 +21,7 @@ public class Train {
 		System.out.println(this.metroNumber);
 		System.out.println(this.stationName);
 		System.out.println(this.noOfStations);
-		System.out.println("===================");
+		System.out.println("========================");
 	}
 
 }
