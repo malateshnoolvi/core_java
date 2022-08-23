@@ -10,11 +10,20 @@ public class Automobile {
 	}
 
 	public double sellAccessories(String name) {
-    System.out.println("break price is");
-		return 2000;
+		if (name == "break cable") {
+			System.out.println("break price is");
+			return 200;
+		}
+		if (name == "head light") {
+			System.out.println("break price is");
+			return 445;
+		}
+		System.out.println("no items");
+		return 0.0;
+
 	}
 
-	public void torisu() {
+	protected void torisu() {
 		System.out.println("type of automobile is" + " " + this.type);
 		System.out.println("brand of automobile is" + " " + this.brand);
 	}

@@ -1,19 +1,21 @@
 package com.xworkz.automobile.art;
 
 import com.xworkz.automobile.base.Automobile;
-import com.xworkz.automobile.sub.HondaAutomobile;
-import com.xworkz.automobile.sub1.TataAutomobile;
+import com.xworkz.automobile.base.HondaAutomobile;
+import com.xworkz.automobile.sub.TataAutomobile;
 
 public class AutomobileArt {
 
 	public static void main(String[] args) {
 
-		Automobile automobile = new HondaAutomobile(9.15,6.15);
-		double am=automobile.sellAccessories("break cable");
+		//Automobile auto=new AutomobileArt();----------------(protected)
+		
+		Automobile automobile = new HondaAutomobile(9.15, 6.15);
+		double am = automobile.sellAccessories("break cable");
 		System.out.println(am);
 		automobile.setType("two wheeler");
 		automobile.setBrand("Hero");
-		automobile.torisu();
+		//automobile.torisu();--------------------------------(protected)
 
 		System.out.println("<==================================>");
 

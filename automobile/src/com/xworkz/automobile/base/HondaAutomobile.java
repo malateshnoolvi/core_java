@@ -1,6 +1,4 @@
-package com.xworkz.automobile.sub;
-
-import com.xworkz.automobile.base.Automobile;
+package com.xworkz.automobile.base;
 
 public class HondaAutomobile extends Automobile {
 

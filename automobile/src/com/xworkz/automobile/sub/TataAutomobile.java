@@ -1,4 +1,4 @@
-package com.xworkz.automobile.sub1;
+package com.xworkz.automobile.sub;
 
 import com.xworkz.automobile.base.Automobile;
 
