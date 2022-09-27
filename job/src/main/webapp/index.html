@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+form {
+text-decoration: underline;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="pink">
+
+	<h1>JOB APPLICATION</h1>
+	
+	<form action="switch">
+	<label>Enter Name</label> 
+		<input type="text" placeholder="Enter Name" name="name">
+<br><br>
+
+		<div>
+			<label>Enter E-mail</label> 
+			<input type="email" placeholder="Enter E-mail" name="email">
+		</div>
+<br><br>
+         <div>
+        <label for="Phone No">Enter your phone number:</label>
+         <input type="tel" name="phoneNo" placeholder="Enter Phone No">
+         <br><br>
+          <label for="Alternative Phone No">Enter your phone number:</label>
+         <input type="tel" name="Altphone No" placeholder="Enter alt Phone No">
+         </div>
+         <br><br>
+		<div>
+			<label>Select gender</label> 
+			<input type="radio"  id = "gen" value="Male" name="Gender">
+			<label for ="gen">Male</label>
+			<input type="radio" id="gen"  value="female" name="Gender">
+			<label for="gen">female</label>
+		    <input type="radio" id="gen"  value="others" name="Gender"s>
+			<label for="gen"></label>
+		</div>
+		<br><br>
+		<div>
+			<label>Select Qualification</label> <select name="Qualification">
+				<option>--Select  Qualification----</option>
+				<option value="BCA">BCA</option>
+				<option value="BE">BE</option>
+				<option value="BA">BA</option>
+				<option value="B.com">B.com</option>
+				<option value="B.sc">B.sc</option>
+			</select>
+			</div>
+			<br><br>
+		<div>
+			<label>Select Passout Year</label> <select name="Passout Year">
+				<option>--Select Passout Year----</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+				<option value="2018">2018</option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+				<option value="2021">2021</option>
+			</select>
+		</div>
+		<br><br>
+		<div>
+			<label>Select University</label> <select name="University">
+				<option>--Select University----</option>
+				<option value="Karnataka University">Karnataka University</option>
+				<option value="">University of Mysore</option>
+				<option value="Visvesvaraya Technology University">Visvesvaraya Technology University</option>
+				<option value="Gulbarga University">Gulbarga University</option>
+				<option value="Dharwad University">Dharwad University</option>
+				<option value="Benagalore Institute of Technology">Benagalore Institute of Technology</option>
+			</select>
+			</div>
+			
+			<br><br>
+        <div>
+            <label>Enter Address</label>
+            <textarea rows="S" cols="20" name="Address"></textarea>
+        </div>
+			<br><br>
+			
+    <div>
+        <label>Select Skills</label>
+        <input type ="checkbox" value="CoreJava" name="Skills"> CoreJava
+        <input type ="checkbox" value="Spring" name="Skills"> Spring
+        <input type ="checkbox" value="JDBC" name="Skills"> JDBC
+        <input type ="checkbox" value="JPA" name="Skills"> JPA
+        <input type ="checkbox" value="Servlet" name="Skills"> Servlet
+        <input type ="checkbox" value="Collection" name="Skills"> Collection
+        <input type ="checkbox" value=" HTM" name="Skills"> HTML
+        <input type ="checkbox" value=" CSS" name="Skills"> CSS
+        <input type ="checkbox" value="JavaScript" name="Skills"> JavaScript
+        <input type ="checkbox" value=" BootStrap" name="Skills"> BootStrap
+        <input type ="checkbox" value="Hybernet" name="Skills"> Hybernet
+        <input type ="checkbox" value="Python" name="Skills"> Python
+        <input type ="checkbox" value="Dotnet" name="Skills"> Dotnet
+        <input type ="checkbox" value=" SQL" name="Skills"> SQL
+    </div>
+			<br><br>
+		<div>
+			<label>Expected Salary</label>
+			 <input type="text" name="Salary">
+		</div>
+		<br><br>
+		<div>
+			<label>Select Experience Year</label> <select  name="Experience Year">
+				<option value="">--Select Experience Year----</option>
+				<option value="0">0</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+			</select>
+			</div>
+			<br><br>
+			<div>
+			<label>Select ID Proof</label> <select name="ID Proof">
+				<option value="ID Proof" >--Select ID Proof----</option>
+				<option value="Adhar Card">Adhar Card</option>
+				<option value="Pan Card">Pan Card</option>
+				<option value="Driving Licence">Driving Licence</option>
+				<option value="VoterID">VoterID</option>
+				<option value="Ration Card">Ration Card</option>
+				<option value="Passport">Passport</option>
+			</select>
+		</div>
+		
+		<br><br>
+		<div>
+			<label>ID Proof No</label> <input type="number" name="Proof No">
+			</div>
+			<br><br>
+			
+			<input style="background-color: gray;" type="submit" value="Submit">
+	
+	</form>
+
+</body>
+</html>
