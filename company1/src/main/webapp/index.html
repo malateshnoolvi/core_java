@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+form,h4,a{
+text-decoration: underline;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="pink">
+<h4>COMPANY DETAILS</h4>
+<a href="showDetails">Show details</a>
+<br><br>
+<form action="city" method="post">
+<label>Enter Company Name</label> 
+<input type="text" id="Enter Name" name="name">
+<br><br>
+
+<label>Founder Name</label>
+<input type="text" name="founder name">
+<br><br>
+
+<label>Since</label>
+<input type="text" name="since">
+<br><br>
+
+<label>Employees</label> <select  name="employees">
+				<option value="">--Select Employees----</option>
+				<option value="0">10-100</option>
+				<option value="0">100-400</option>
+				<option value="1">400-500</option>
+				<option value="2">500-1000</option>
+				<option value="3">1000-2000</option>
+				<option value="4">>2000</option>
+				</select>
+				<br><br>
+
+<label>Address</label>				
+	<textarea rows="S" cols="20" name="address"></textarea>	
+	<br><br>
+	<label>Business</label>
+	            <select  name="business">
+				<option value="">--Select Business----</option>
+				<option value="0">Textile</option>
+				<option value="0">IT</option>
+				<option value="1">Fertilizers</option>
+				<option value="2">Logestics</option>
+				<option value="3">E-commerce</option>
+				</select>
+				<br><br>
+	
+	<input type="submit" value="submit">
+			
+</form>
+</body>
+</html>
